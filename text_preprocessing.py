@@ -1,20 +1,25 @@
+from emoji import demojize
+from nltk.corpus import stopwords
+from nltk.stem import PorterStemmer
 import re
+from spacy import load
 from string import punctuation
 from textblob import TextBlob
-from nltk.corpus import stopwords
 
 
 def remove_url(text: str):
     '''
+    Remove URLs from the text.
     '''
     pattern = re.compile(r'https?://\S+|www\.\S+')
     return pattern.sub(r'', text)
 
 def remove_punctuation(text: str):
     '''
+    Remove punctuation marks from the text.
     '''
     exclude = punctuation
-    return text.translate(str.maketrans('', '', exclude))
+    return text.translate(str.maketrans(exclude, ' ' * len(exclude)))
 
 CHAT_WORDS = {
     "AFAIK": "as far as i know",
@@ -106,6 +111,7 @@ CHAT_WORDS = {
 }
 def chat_conversion(text: str):
     '''
+    Convert common chat abbreviations to their full forms.
     '''
     text = text.split()
     for i in range(len(text)):
@@ -116,6 +122,7 @@ def chat_conversion(text: str):
  
 def correct_text(text: str):
     '''
+    Correct the incorrectly spelled words (if any) in the text
     '''
     textBlb = TextBlob(text)
     return textBlb.correct().string
@@ -123,6 +130,7 @@ def correct_text(text: str):
 STOPWORDS = stopwords.words('english')
 def remove_stopwords(text: str):
     '''
+    Remove the stopwords from the text, that account for little to no meaning in the text.
     '''
     words = text.split()
     for i in range(len(words)):
@@ -131,5 +139,23 @@ def remove_stopwords(text: str):
         words[i] = ''
     return ' '.join(words)
 
+nlp = load("en_core_web_sm")
+def tokenise(text: str):
+    '''
+    Tokenise each word in the text.
+    '''
+    doc = nlp(text)
+    return list(filter(str.isalnum, [s.text for s in doc]))
 
-PROCESSES = [str.lower, remove_url, remove_punctuation, chat_conversion, correct_text, remove_stopwords]
+ps = PorterStemmer()
+def stem_words(ls: list[str]):
+    '''
+    Stem each word to its root form.
+    '''
+    return ' '.join([ps.stem(word) for word in ls])
+
+'''The processes to be applied on each element in the dataset'''
+PROCESSES = (
+            str.lower, remove_url, demojize, remove_punctuation, chat_conversion,
+            correct_text, remove_stopwords, tokenise, stem_words
+            )
