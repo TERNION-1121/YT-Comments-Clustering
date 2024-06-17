@@ -5,7 +5,7 @@ import re
 from spacy import load
 from string import punctuation
 from textblob import TextBlob
-
+from unicodedata import normalize
 
 def remove_url(text: str):
     '''
@@ -13,6 +13,26 @@ def remove_url(text: str):
     '''
     pattern = re.compile(r'https?://\S+|www\.\S+')
     return pattern.sub(r'', text)
+
+# Mapping of non-standard characters to standard ones
+CHAR_REPLACEMENTS = {
+    '‘': "'",
+    '’': "'",
+    '“': '"',
+    '”': '"',
+    '–': '-',
+    '—': '-',
+    '…': '...',
+    '\u00A0': ' ',
+    '`': "'",
+}
+translation_table = str.maketrans(CHAR_REPLACEMENTS)
+def normalize_text(text):
+    '''
+    Replace non-standard characters to standard ones
+    '''
+    text = normalize('NFKD', text)
+    return text.translate(translation_table)
 
 def remove_punctuation(text: str):
     '''
@@ -57,7 +77,6 @@ CHAT_WORDS = {
     "IMO": "in my opinion",
     "IOW": "in other words",
     "IRL": "in real life",
-    "KISS": "keep it simple, stupid",
     "LDR": "long distance relationship",
     "LMAO": "laugh my ass off",
     "LOL": "laughing out loud",
@@ -145,7 +164,7 @@ def tokenise(text: str):
     Tokenise each word in the text.
     '''
     doc = nlp(text)
-    return list(filter(str.isalnum, [s.text for s in doc]))
+    return list(filter(str.isalpha, [s.text for s in doc]))
 
 ps = PorterStemmer()
 def stem_words(ls: list[str]):
@@ -156,6 +175,6 @@ def stem_words(ls: list[str]):
 
 '''The processes to be applied on each element in the dataset'''
 PROCESSES = (
-            str.lower, remove_url, demojize, remove_punctuation, chat_conversion,
-            correct_text, remove_stopwords, tokenise, stem_words
+            str.lower, remove_url, demojize, normalize_text, remove_punctuation, 
+            chat_conversion, correct_text, remove_stopwords, tokenise, stem_words
             )

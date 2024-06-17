@@ -1,12 +1,602 @@
-[
-    "🤔🤔 have any opinion on skin the cats/360 pulls?",
-    "hey man are you going to gym ? have you got that chest just from pushups ?",
-    "Its nice information, thank you",
-    "Is not called hindu push up",
-    "I look away for one second to practice, and the next thing I know he's climbing a tree.",
-    "I find these really hurt my elbows",
-    "Hip must be lower and go back. So that thighs and calfs and abdomen also get benefitted.",
-    "☀🌞Suryanamaskar (Sun salute) is more elaborate and has similar if not the same benefits. Suryanamaskar is commonly taught in Yoga classes.",
-    "Typically warm up with 5-10 of these.",
-    "NORMAL PUSHPS MAKE YOUR STIFF...BUT  INDIAN PUSHUPS OR  YOGA PUSHPS MAKE YOUR ARMS FLEXIBLES ALONG WITH STRENGHT"
-]
+{
+    "0": {
+        "like_count": 1,
+        "comment": "Man i hate having autism, i just can't talk to anyone in general, and even when i do i'm extremely awkward, even with people i know like my family for example, and in my head i know exactly what to do and what do say to not be awkward but when i'm actually having a conversation my brain just won't let me do it, it's not that i forget what to do, my brain just doesn't allow me to do the things i know i should be doing. Sorry for yapping but it's just so frustrating and i don't know what to do about it."
+    },
+    "1": {
+        "like_count": 1,
+        "comment": "Youtube is so hard now . I am going to quit."
+    },
+    "2": {
+        "like_count": 0,
+        "comment": "Sometimes silence is the answer of the question. BUT not in these situations lol"
+    },
+    "3": {
+        "like_count": 0,
+        "comment": "Why become socially enigmatic when you can be lonely and happy ?"
+    },
+    "4": {
+        "like_count": 1,
+        "comment": "I will do 1 pushup for every like"
+    },
+    "5": {
+        "like_count": 2,
+        "comment": "i don't think your teacher would spread rumors about you, man."
+    },
+    "6": {
+        "like_count": 34,
+        "comment": "Minecraft music fits this type of content so much"
+    },
+    "7": {
+        "like_count": 95,
+        "comment": "Bro you don’t know how much you saved me. Everytime I see u I always have the motivation to do something and I’m a smart person and my school and when I get low I get all the attention. Thank you bro❤️❤️"
+    },
+    "8": {
+        "like_count": 25,
+        "comment": "bro Jak out here again with the perfect timing. I just came from the dryest conversation I’ve ever had and all I could do was nod while not even making eye contact 💀"
+    },
+    "9": {
+        "like_count": 1,
+        "comment": "hey buddy just wanted to say that love from india and currently i am busy and this video is distracting me haha so i have put it to watch later playlist but ill watch the video and let you know my thoughts as this video could be really helpful for me as i cannot speak lol. cheers mate.\nedit:: Loved the vid bro but i was wondering which books you would recommend and how to practice it irl like i have read how to influence people by dal Carnegie but don't know how to practice it. One last thing, bro how to find the root cause of anxiety while talking cause for me the case is not just limited to woman but literally everybody i talk to, i am stuttering. I would love your thoughts as it would help me on my self improvement journey brother. cheers."
+    },
+    "10": {
+        "like_count": 0,
+        "comment": "What's with the 1 in 400 trillion assumption"
+    },
+    "11": {
+        "like_count": 1,
+        "comment": "Hey everyone, I need your help. I stopped using bad websites a week ago and reduced my screen time to 40 minutes a day, but now I'm feeling really unmotivated. My eating habits have gotten worse, I feel tired all day, but can't fall asleep at night. I can't get any work done, and my teacher is scolding me for bad scores. Even the guys in my class who watch these websites and are addicted to Instagram are doing better than me. It feels like my life is all messed up. I tried to make things better but can't seem to do it. Feels like there's no alternative other than giving up. 😔💔"
+    },
+    "12": {
+        "like_count": 0,
+        "comment": "I used to study how “cool” people would talk in movies"
+    },
+    "13": {
+        "like_count": 8,
+        "comment": "i just simply love this man"
+    },
+    "14": {
+        "like_count": 15,
+        "comment": "Sometimes silence is the best answer. I had to learn that and am learning it currently."
+    },
+    "15": {
+        "like_count": 0,
+        "comment": "Yahusha love's you all repent of your sin and accept Him today to get saved from hell"
+    },
+    "16": {
+        "like_count": 16,
+        "comment": "15 Push ups for evry like \n👇\n\n✊ \nYou dont need to"
+    },
+    "17": {
+        "like_count": 0,
+        "comment": "I used to like when I was In primary got a bunch off attention from Girls,now I got a gf"
+    },
+    "18": {
+        "like_count": 1,
+        "comment": "Brother you have help me so much. Im forever grateful ❤❤"
+    },
+    "19": {
+        "like_count": 0,
+        "comment": "can you help me please? \ni am dating this girl for two months and i really like here, but i am working on my self in ways that compare to your videos and i dont have enough time to spend with her and i dont know if i should press pause on our relationship. please help me."
+    },
+    "20": {
+        "like_count": 14,
+        "comment": "Your a great speaker my brother, keep up the good work 👍"
+    },
+    "21": {
+        "like_count": 0,
+        "comment": "Such a valuable video. I have been doing this for almost a year, but this video made me remember some of the key things!"
+    },
+    "22": {
+        "like_count": 2,
+        "comment": "Thanks jak, for this REAL video. You are amazing bro! Keep up!  ✌️"
+    },
+    "23": {
+        "like_count": 1,
+        "comment": "I just finished recording a podcast, and this posted right after I finished... I needed this an hour ago"
+    },
+    "24": {
+        "like_count": 12,
+        "comment": "You're a lifechanger for the new generations. Keep up the good work"
+    },
+    "25": {
+        "like_count": 1,
+        "comment": "Gandalf of gen z strikes once again🗣"
+    },
+    "26": {
+        "like_count": 2,
+        "comment": "1st"
+    },
+    "27": {
+        "like_count": 0,
+        "comment": "Does anyone know where is the video that he  embrace his  anxiety?"
+    },
+    "28": {
+        "like_count": 1,
+        "comment": "Hi jac. How are you doing today? If you’re having a rough day I hope you’re day gets better. If you are having a good day then keep the positive energy."
+    },
+    "29": {
+        "like_count": 2,
+        "comment": "i fucking love u homie, i subbed on all my alts so whenever i watch yt shorts u save me"
+    },
+    "30": {
+        "like_count": 324,
+        "comment": "always wondered why does bro have so much footage from his childhood"
+    },
+    "31": {
+        "like_count": 1,
+        "comment": "I enjoyed the ending"
+    },
+    "32": {
+        "like_count": 1,
+        "comment": "Keep on making great content Jak your videos are changing peoples lives when you said the chances of being born are one in 400 trillion that stuck with me and changed my life overnight and also when you said if your life was a film would you enjoy watching it? You’ve helped me so much"
+    },
+    "33": {
+        "like_count": 65,
+        "comment": "So I've already gotten a bunch of DM's and some comments on this video asking - how do you actually apply what I am saying? Like, how do I start talking to people and applying what I've said in this video? - would you want a video on that? I have some great ideas in mind so if you want me to make it I'd be very happy to. It'll basically be an extension to this video, but again, actually applying the information without completely f*cking everything up for yourself if that makes sense, let me know 👊"
+    },
+    "34": {
+        "like_count": 8,
+        "comment": "I remember in 7th grade i would get so nervous talking to girls but not with anyone else. The year before in 6th grade i was in a different school and i was so much more confident in a way. I was able to talk to anyone easily and actually be funny.\nI dont know what happened later on but there was a switch that brought me back to that 6th grade version of me and ever since i have been that version of me.\nThe point is over time you will get more comfortable with the people who surround you. so dont worry if you have anxiety. Just keep pushing yourself out of that comfort zone \nMuch love 👊❤️"
+    },
+    "35": {
+        "like_count": 0,
+        "comment": "First"
+    },
+    "36": {
+        "like_count": 98,
+        "comment": "1.  Speak slowly\n2. Take a pause before answering to a question\n3. Improve vocabulary\n4. let go the fear of not speaking well\n5. impress yourself first then others"
+    },
+    "37": {
+        "like_count": 0,
+        "comment": "Another communication technique pretty efficient: use your body languege and facial expressions to support your words"
+    },
+    "38": {
+        "like_count": 0,
+        "comment": "Bro u are such a amazing person.i hope you realize how many people you are helping.love you man❤"
+    },
+    "39": {
+        "like_count": 2,
+        "comment": "I always faced awkwardness talking to male colleagues or friends, and all the time regret my poor social skills, but this video is on time .\nYou contribution in my self improvement is appreciated.\nThankyou"
+    },
+    "40": {
+        "like_count": 1,
+        "comment": "Every like this has is the amount of days i will not watch porn. (Till Monday in the Philippines)"
+    },
+    "41": {
+        "like_count": 1,
+        "comment": "\"i just exposed myself in front of this teacher\""
+    },
+    "42": {
+        "like_count": 0,
+        "comment": "literally watching this the night before a big english speech - tysm this has calmed me down so much"
+    },
+    "43": {
+        "like_count": 1,
+        "comment": "46th comment lol"
+    },
+    "44": {
+        "like_count": 7,
+        "comment": "This is so relatable for me good for me to watch your vids and learn from them ❤"
+    },
+    "45": {
+        "like_count": 1,
+        "comment": "YES! AWESOME VID IDEA! :D Thanks, bro!"
+    },
+    "46": {
+        "like_count": 37,
+        "comment": "Silence can awnser all questions."
+    },
+    "47": {
+        "like_count": 0,
+        "comment": "W video"
+    },
+    "48": {
+        "like_count": 0,
+        "comment": "The Minecraft music in the background makes the video more interesting"
+    },
+    "49": {
+        "like_count": 0,
+        "comment": "I cannot talk to people to save my life and thanks for this video"
+    },
+    "50": {
+        "like_count": 1,
+        "comment": "i need this bro ty"
+    },
+    "51": {
+        "like_count": 1,
+        "comment": "Thank you for your advice bro it has been helping me and uh I'm seeing better progress in life too you have made me an better person \n\nThank you very much jack \n\nYours truly: RICK"
+    },
+    "52": {
+        "like_count": 0,
+        "comment": "Love the Minecraft music in the background, another great video, Jak. Keep it up 👍🏻"
+    },
+    "53": {
+        "like_count": 0,
+        "comment": "2nd"
+    },
+    "54": {
+        "like_count": 0,
+        "comment": "Since i saw you while scrolling, It made me realize i had to finally take action, and i'd say if it wasn't for you I would probably not be as I am right now, Thanks man"
+    },
+    "55": {
+        "like_count": 4,
+        "comment": "Even as a girl I find your content so helpful. You are the only YouTuber I watch with this type content. You are the best in my opinion and your content is mostly for everyone which is really dope."
+    },
+    "56": {
+        "like_count": 0,
+        "comment": "John 3v16 “For God so loved the world that He gave His only begotten Son, that whosoever believeth in Him should not perish, but have everlasting life."
+    },
+    "57": {
+        "like_count": 0,
+        "comment": "Can you send me the names of the books you read? Also i love the music, makes me feel calm and nostalgic?"
+    },
+    "58": {
+        "like_count": 1,
+        "comment": "one like = one pushup"
+    },
+    "59": {
+        "like_count": 0,
+        "comment": "Thanks jak for allways posting  I'm going to leave a comment on every new video dont forget me"
+    },
+    "60": {
+        "like_count": 1,
+        "comment": "Hey Jak, really admire you and your content... I am 18 as well !! I really like your content and your style of content. You are truly saving this generation !! btw what camera do u use ?? it would be so amazing if you replied yay !!"
+    },
+    "61": {
+        "like_count": 0,
+        "comment": "are u real"
+    },
+    "62": {
+        "like_count": 0,
+        "comment": "5:01 even before this video ive waited and god am I relived I did, cuz maybe about 5 seconds later I see the full picture and if I said what I said what I wanted to say before?  well i'd be cooked"
+    },
+    "63": {
+        "like_count": 0,
+        "comment": "This actually helped a lot with me. I’m not the greatest communicator when it comes to some people so thank you for this advice Jak! As always :]"
+    },
+    "64": {
+        "like_count": 0,
+        "comment": "I learned new stuff like talking slower with a good tone,thanks man! \nAlso I wonder how you’ve got so much to say, do you memorize your scripts or how!?"
+    },
+    "65": {
+        "like_count": 2,
+        "comment": "Love the video brother ❤️💪"
+    },
+    "66": {
+        "like_count": 0,
+        "comment": "If you want to improve your communication skills i would recommend following Vinh Giang hes really good"
+    },
+    "67": {
+        "like_count": 0,
+        "comment": "Hey bro, \nI just wonder right now if you' ve read the Koran or studied about Islam.\nI think it would fit with you very well. ❤\nAll the best for you. : )"
+    },
+    "68": {
+        "like_count": 4,
+        "comment": "I actually finished my Profesional Communication course this spring as part of my study program, and I can definitely agree with the points you made there.\n\nI think there is no definitive answer for everybody as to why dry conversations occur in their communication or 'clutter', but your example with water comes close - it is usually the barriers that exist before the conversation begins in the first place that hold somebody back, and it can be very different from person to person. Things like how respectable you come off and how you yourself feel about it etc.\n\nOnce again, thanks for sharing your toughts and experiences. They are cherished by many. Stay real, yeah. ❤"
+    },
+    "69": {
+        "like_count": 0,
+        "comment": "Social skills r so important u can change everything"
+    },
+    "70": {
+        "like_count": 0,
+        "comment": "i feel like every thing he says i can relate to and that is why I love his content"
+    },
+    "71": {
+        "like_count": 0,
+        "comment": "Great video, I have some feedback for you. I feel like most of the people who watch such a video quickly forget about the video's purpose after they watch it. It would be great if after a video like this one, you could do a quick summary of the actual tips at the end with maybe on-screen bullet points, tips that actually answer the title \"How to actually avoid dry convos and speak like a pro…\". I think it would greatly help people to actually remember the tips after the video ends. The in-depths explanations and examples are great, but I think your videos and viewers could benefit from a short summary at the end, it's up to you though, just an idea, keep it up!"
+    },
+    "72": {
+        "like_count": 4,
+        "comment": "Thank you Jak. This really helps me. Before seeing your video I was analyzing why I am scared of people that have a higher “status”. Your video really helps me set a base. Keep going with the videos, you’ve changed lives."
+    },
+    "73": {
+        "like_count": 0,
+        "comment": "This time i want you you you you like it's magnetic \n- illit \"magnetic\""
+    },
+    "74": {
+        "like_count": 0,
+        "comment": "Love your vids bro. I could really talk with you right now. but dont waste your time on me if you dont want to."
+    },
+    "75": {
+        "like_count": 0,
+        "comment": "You're so real bro. These video make me cry man, in a good way. Thank you for your help mate."
+    },
+    "76": {
+        "like_count": 0,
+        "comment": "Found the video just when i needed it \nthank you"
+    },
+    "77": {
+        "like_count": 0,
+        "comment": "You changed my life, you made me appreciate everything. I couldn't thank you more. You seriously changed my life Jak. I love you bro, I wanna meet you one day and give you a hug bro."
+    },
+    "78": {
+        "like_count": 0,
+        "comment": "Yooooo"
+    },
+    "79": {
+        "like_count": 0,
+        "comment": "Thank you"
+    },
+    "80": {
+        "like_count": 0,
+        "comment": "Good vid dude!"
+    },
+    "81": {
+        "like_count": 0,
+        "comment": "Dang it. Saw this video 11 minutes in."
+    },
+    "82": {
+        "like_count": 0,
+        "comment": "Wake up dude, the King just uploaded!"
+    },
+    "83": {
+        "like_count": 0,
+        "comment": "2"
+    },
+    "84": {
+        "like_count": 0,
+        "comment": "I'm a very awkward guy and I've been trying to get my social skills up recently thanks for this video!"
+    },
+    "85": {
+        "like_count": 3,
+        "comment": "I remember when I used to talk to my crush, I thought about it so much and cared about it so much that my face went red anytime I said anything. One thing I realized was that because I had cared so much about the idea of talking to this person at all, I would get so nervous to do that, so I started to not think about having a perfect conversation with that person and just stopped caring about talking to them as much, and I got way better at talking to her.\nTurns out it worked and now we’re dating. Thanks for the advice Jak, your content is amazing 👍"
+    },
+    "86": {
+        "like_count": 7,
+        "comment": "Solid vid lad keep it up"
+    },
+    "87": {
+        "like_count": 1,
+        "comment": "Thanks for this Brother"
+    },
+    "88": {
+        "like_count": 0,
+        "comment": "Thank you very much. I can really relate to you and you provide some really good insight"
+    },
+    "89": {
+        "like_count": 0,
+        "comment": "My school journey is much more interesting and adventurous still going\nAnd I am gonna win\nAs a 13 years old kid"
+    },
+    "90": {
+        "like_count": 0,
+        "comment": "Hi"
+    },
+    "91": {
+        "like_count": 0,
+        "comment": "I’ve waited for this video for so long, thanks bro!"
+    },
+    "92": {
+        "like_count": 3,
+        "comment": "Still don’t know what to to do with girls unfortunately 😢😂😂😢😢"
+    },
+    "93": {
+        "like_count": 0,
+        "comment": "The Only One and True Living God who is Jesus Christ of Nazareth Loves You All."
+    },
+    "94": {
+        "like_count": 0,
+        "comment": "Jak, your videos are so good i literally cannot stop watching your videos. You have such a cool mentality and you speak so good, like i could listen to what you say every single day and would remember every single word from what you would say. Its crazy but its true :D. I want to thank you because you changed me so much."
+    },
+    "95": {
+        "like_count": 75,
+        "comment": "I want you to know that your videos not just \"inspire\" people, they literally change and save them. Thank you for all the content you make"
+    },
+    "96": {
+        "like_count": 0,
+        "comment": "Hi jak"
+    },
+    "97": {
+        "like_count": 0,
+        "comment": "Jak, stop smiling, your smile nakes me feel that every thing is ok"
+    },
+    "98": {
+        "like_count": 0,
+        "comment": "You have actually helped me a lot since I started watching you a few weeks ago. thank you man."
+    },
+    "99": {
+        "like_count": 1,
+        "comment": "Relatable"
+    },
+    "100": {
+        "like_count": 0,
+        "comment": "I think this is not in the topic but i just lost my 20 days streak on nofap….. \ni guess i have to started to do nofap again"
+    },
+    "101": {
+        "like_count": 0,
+        "comment": "who noticed the background music :D"
+    },
+    "102": {
+        "like_count": 0,
+        "comment": "You are someone that everyone 16-23 year olds should be listening to. Im 17, trying to be a better person and grow up. Only recently have I thought that the way I communicate is a big part of what people think of me. Thank you so much. Keep doing what you are doing, keep changing lives for the better. Also, to everyone reading this, read more books. It will help you to talk more clearly."
+    },
+    "103": {
+        "like_count": 21,
+        "comment": "Jak is the only sane ''Self-improvement'' creator, i look up to him like i would to a brother, keep up the great work man 💪"
+    },
+    "104": {
+        "like_count": 1,
+        "comment": "Yo i relate to this every time i talk to girls i forget everything and then i just push them away so thanks man for the advice"
+    },
+    "105": {
+        "like_count": 0,
+        "comment": "are you watching me??? I just noticed this recently and how as I notice things about myself that I need to fix, You make a video about this. But thank you"
+    },
+    "106": {
+        "like_count": 0,
+        "comment": "Man i am camera shy and insecure of my voice.. i just wanna start a gaming channel nuthin else man but i cant.. and tysm for this video because i KNOW This WILL Make me confident i TRUST In You"
+    },
+    "107": {
+        "like_count": 0,
+        "comment": "Bro I just wanted to tell you that you are actually the best you have saved me from a lot of regrets in my life, thnx bro.❤❤❤🙂‍↕️🙂‍↕️"
+    },
+    "108": {
+        "like_count": 5,
+        "comment": "keep up the good work jak"
+    },
+    "109": {
+        "like_count": 0,
+        "comment": "I’m graduating next weekend, and I have to pick up my escort who I havnt spoken to yet. Wish me luck"
+    },
+    "110": {
+        "like_count": 0,
+        "comment": "Love the videos they are helping me Jak keep it up 🙌🏻"
+    },
+    "111": {
+        "like_count": 0,
+        "comment": "I'm a real over thinker, so when I try have a conversation with someone it just all goes down hill. My school teacher used to call me the, Writer with no words, because I would always trip over my words and they'd just never end up coming out. I was always so embarrassed,  plastering that dead jack-o-lantern smile on my face. Which made me look fine but it feels hollow."
+    },
+    "112": {
+        "like_count": 0,
+        "comment": "I have been so stressed the last 6 months. From moving to 2 different houses and being kicked out of school twice because of my attendance not being able to find friends not even being able to sleep. You have really been calming me down I really appreciate you and love all of your content. Much love Jak ❤"
+    },
+    "113": {
+        "like_count": 0,
+        "comment": "gon try to use these techniques"
+    },
+    "114": {
+        "like_count": 1,
+        "comment": "Jak I have a question. (I was gonna ask this on one of your older videos but it was too long ago). So I am a kid almost turning 14. I’m in year 8 and I have a massive crush on a girl. However she is leaving the school soon and I don’t think I’ll see her again. We talk almost every day but I’m not sure if she likes me back. I don’t know how to act because I can’t imagine what my school is going to be like when she leaves. Should I act or just be a good friend that’s there for her. Please help"
+    },
+    "115": {
+        "like_count": 0,
+        "comment": "Thanks for this, this will help a lot\nKeep doing what you’re doing bro🩵"
+    },
+    "116": {
+        "like_count": 0,
+        "comment": "\"when you impress yourself then you impress that certain somebody\" 👌🏻❤️💪🏻"
+    },
+    "117": {
+        "like_count": 0,
+        "comment": "I mean, to me it helped just carring less, so you dont get nervous and stutter. Confindence in healthy limits is really helpful."
+    },
+    "118": {
+        "like_count": 1,
+        "comment": "Before i watch the video, i wanna thank you soooo much for your content helping me out, im forever grateful ❤"
+    },
+    "119": {
+        "like_count": 1,
+        "comment": "Jak is HIM"
+    },
+    "120": {
+        "like_count": 14,
+        "comment": "I'm gonna hug my crush soon and don't wanna make it awkward. Literally the perfect timing tysm!"
+    },
+    "121": {
+        "like_count": 1,
+        "comment": "For every like this comment gets, I will do 2 PUSHUPS (this probably will be easy because I'm 11 hrs late)\n\nproof of completing this challenge 2 days ago: https://youtu.be/HAT7Wivblh8?si=q1wbyxs4AV5rTvaY"
+    },
+    "122": {
+        "like_count": 0,
+        "comment": "W vid"
+    },
+    "123": {
+        "like_count": 0,
+        "comment": "yo bro what time do you usually sleep and wake up?"
+    },
+    "124": {
+        "like_count": 0,
+        "comment": "Bro can I please have the discord link jak?"
+    },
+    "125": {
+        "like_count": 0,
+        "comment": "The very awkward smile I am almost certain only or at least mostly men just do."
+    },
+    "126": {
+        "like_count": 0,
+        "comment": "Haha can you answer my questions with even a long video"
+    },
+    "127": {
+        "like_count": 0,
+        "comment": "So YouTube sent me this just after my speech competition? Bruh. Lol."
+    },
+    "128": {
+        "like_count": 0,
+        "comment": "Genuinely the only advice youtuber I've seen who I can tell he's 100% genuine. He's not bullshitting just giving us his opinions. Trying to make a difference. Thanks mate, I wish I had a brother like you haha, but I'll try to be a brother like you for my younger sibling at least."
+    },
+    "129": {
+        "like_count": 1,
+        "comment": "Thanks bro"
+    },
+    "130": {
+        "like_count": 0,
+        "comment": "i love you anna! love from india. i am improving in my life too. i wish i could show you my progress in any way. my mission of 100 day improvement starts tommorow. and i will post results on september on day 100. thank you!"
+    },
+    "131": {
+        "like_count": 0,
+        "comment": "Great video bro. Great mindset to have ❤"
+    },
+    "132": {
+        "like_count": 0,
+        "comment": "keep posting boy..."
+    },
+    "133": {
+        "like_count": 0,
+        "comment": "Isn’t this a little crazy how that one interaction got u spiraling like that"
+    },
+    "134": {
+        "like_count": 170,
+        "comment": "im very awkward, thank you"
+    },
+    "135": {
+        "like_count": 0,
+        "comment": "Wow dude you play gta too"
+    },
+    "136": {
+        "like_count": 0,
+        "comment": "Bro is Majestic."
+    },
+    "137": {
+        "like_count": 0,
+        "comment": "❤"
+    },
+    "138": {
+        "like_count": 1,
+        "comment": "You should do a fan meetup, because we want to thank you for your work😊🫡"
+    },
+    "139": {
+        "like_count": 0,
+        "comment": "Bro you are really going to help me improve my life, thank you. Keep makin' videos like this"
+    },
+    "140": {
+        "like_count": 4,
+        "comment": "Nice video brother ❤"
+    },
+    "141": {
+        "like_count": 0,
+        "comment": "8 views in 1 minute bro fell off"
+    },
+    "142": {
+        "like_count": 0,
+        "comment": "🙂"
+    },
+    "143": {
+        "like_count": 0,
+        "comment": "Hii I'm late but I live on the other side of the world anyway\nI remember last year at the start of december I was at the worst place I could possibly be in and then I came across jaks YouTube channel  and its out of this world how much I've changed and grown its quite personal but I've always had a not so good relationship with my mom and like two days ago she said that she was proud of me and she said I've grown to be very knowledgeable and really if you Asian you get it hehe but I can only thank jak for his reassuring content and god for showing me the right path probably a bit too personal but I love you content and I can actually communicate better now so thank you very muchhh"
+    },
+    "144": {
+        "like_count": 1,
+        "comment": "Bro i dont know what kind of witchcraft you know but , your insane , this is the exact thing i was worrying about 30 min ago"
+    },
+    "145": {
+        "like_count": 1,
+        "comment": "bro had crash on the teacher"
+    },
+    "146": {
+        "like_count": 0,
+        "comment": "i love watching your videos, clicked on the video just about 30 seconds ago, gonna watch this through :D love you man ❤ keep giving this amazing advice"
+    },
+    "147": {
+        "like_count": 0,
+        "comment": "Hey Jak did you hear bout the first trumpet?"
+    },
+    "148": {
+        "like_count": 0,
+        "comment": "Hey, i like this video, good story and advice man\nwould recommend to my younger self!!\n\n\nI’m gonna pass you in subscribers eventually bro just you wait"
+    },
+    "149": {
+        "like_count": 0,
+        "comment": "thank you for your hard work your videos are really appreciated"
+    }
+}
