@@ -29,8 +29,9 @@ def get_video_comments(videoID: str, max_results: int = 20):
                                     
             # extract comment snippets
             for comment in comments_response['items']:
+                like_count = comment['snippet']['topLevelComment']['snippet']['likeCount']
                 snippet = comment['snippet']['topLevelComment']['snippet']['textDisplay']
-                comments.add(snippet)
+                comments.add((like_count, snippet))
 
             # check for additional pages
             while 'nextPageToken' in comments_response:
@@ -43,26 +44,29 @@ def get_video_comments(videoID: str, max_results: int = 20):
                                         maxResults=max_results,
                                         pageToken=next_page_token
                                     ).execute()
-                # extract comment snippets
+                # extract top level comment snippets (reply comments not included)
                 for comment in comments_response['items']:
+                    like_count = comment['snippet']['topLevelComment']['snippet']['likeCount']
                     snippet = comment['snippet']['topLevelComment']['snippet']['textDisplay']
-                    comments.add(snippet)
+                    comments.add((like_count, snippet))
 
         except HttpError as e:
             print(f"An error occurred: {e}")
             
-        return tuple(comments)
+        comments_dict = {   str(index): {"like_count": like_count, "comment": comment} 
+                            for index, (like_count, comment) in enumerate(comments)     }
+        return comments_dict
 
 def save_to_json(data, filename='comments.json'):
     with open(filename, 'w', encoding='utf-8') as json_file:
         dump(data, json_file, ensure_ascii=False, indent=4)
 
 def main():
-    VIDEO_ID = ""
+    VIDEO_ID = "zNRxyK-Vz6I"
     MAX_RESULTS = 100
 
     comments = get_video_comments(VIDEO_ID, MAX_RESULTS)
-    save_to_json(comments, filename='raw-data/comments_4.json')
+    save_to_json(comments, filename='raw-data/comments_2.json')
 
 
 if __name__ == '__main__':
