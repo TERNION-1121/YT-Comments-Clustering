@@ -62,7 +62,7 @@ def save_to_json(data, filename='comments.json'):
         dump(data, json_file, ensure_ascii=False, indent=4)
 
 def main():
-    VIDEO_ID = "zNRxyK-Vz6I"
+    VIDEO_ID = "MO-AExWdl4Q"
     MAX_RESULTS = 100
 
     comments = get_video_comments(VIDEO_ID, MAX_RESULTS)

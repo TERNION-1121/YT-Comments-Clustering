@@ -9,12 +9,12 @@ from unicodedata import normalize
 
 def remove_url(text: str):
     '''
-    Remove URLs from the text.
+    Remove URLs from the text
     '''
     pattern = re.compile(r'https?://\S+|www\.\S+')
     return pattern.sub(r'', text)
 
-# Mapping of non-standard characters to standard ones
+# mapping of non-standard characters to standard ones
 CHAR_REPLACEMENTS = {
     '‘': "'",
     '’': "'",
@@ -36,11 +36,12 @@ def normalize_text(text):
 
 def remove_punctuation(text: str):
     '''
-    Remove punctuation marks from the text.
+    Remove punctuation marks from the text
     '''
     exclude = punctuation
     return text.translate(str.maketrans(exclude, ' ' * len(exclude)))
 
+# mapping of chat abbreviations with their full forms
 CHAT_WORDS = {
     "AFAIK": "as far as i know",
     "AFK": "away from keyboard",
@@ -149,7 +150,7 @@ def correct_text(text: str):
 STOPWORDS = stopwords.words('english')
 def remove_stopwords(text: str):
     '''
-    Remove the stopwords from the text, that account for little to no meaning in the text.
+    Remove the stopwords from the text, that account for little to no meaning in the text
     '''
     words = text.split()
     for i in range(len(words)):
@@ -161,7 +162,7 @@ def remove_stopwords(text: str):
 nlp = load("en_core_web_sm")
 def tokenise(text: str):
     '''
-    Tokenise each word in the text.
+    Tokenise each word in the text
     '''
     doc = nlp(text)
     return list(filter(str.isalpha, [s.text for s in doc]))
@@ -173,7 +174,8 @@ def stem_words(ls: list[str]):
     '''
     return ' '.join([ps.stem(word) for word in ls])
 
-'''The processes to be applied on each element in the dataset'''
+
+'''The processes to be applied on each document in the dataset'''
 PROCESSES = (
             str.lower, remove_url, demojize, normalize_text, remove_punctuation, 
             chat_conversion, correct_text, remove_stopwords, tokenise, stem_words
