@@ -9,7 +9,7 @@ import time
 from wordcloud import WordCloud
 
 
-def process_data(json_path: str, csv_path: str):
+def process_data(json_path: str, csv_path: str) -> None:
     '''
     json_path: the json file to be processed
     csv_path: the path to save the processed data
@@ -51,6 +51,7 @@ def process_data(json_path: str, csv_path: str):
     print(f"Clustering datapoints...")
 
     features = df.iloc[:, 3:]
+    # decide number of clusters for a given number of comments using some arbitrary math; max 5
     km = KMeans(n_clusters=5 if log(df.shape[0]) * 0.73 > 5 else ceil(log(df.shape[0]) * 0.73))
     clusters = km.fit_predict(features)
     df.insert(4, 'cluster', clusters)
@@ -67,12 +68,11 @@ def process_data(json_path: str, csv_path: str):
 
     print(f"Task complete ({time.time() - init:.2f}s)")
 
-
-def display_word_clouds(df: pd.DataFrame):
+def display_word_clouds(df: pd.DataFrame) -> None:
     '''
     Display a word cloud for each cluster
     '''
-    def generate_word_cloud(text, cluster_number):
+    def generate_word_cloud(text: str, cluster_number: int) -> None:
         wordcloud = WordCloud(width=800, height=400, background_color='white').generate(text)
         plt.figure(figsize=(10, 5))
         plt.imshow(wordcloud, interpolation='bilinear')
@@ -88,8 +88,7 @@ def display_word_clouds(df: pd.DataFrame):
         text = row['post_clean']
         generate_word_cloud(text, cluster_number)
 
-
-def plot_bar_graph(df: pd.DataFrame):
+def plot_bar_graph(df: pd.DataFrame) -> None:
     '''
     Plot a graph to visualise cluster data
     '''
@@ -112,7 +111,7 @@ def plot_bar_graph(df: pd.DataFrame):
     ax.set_xticklabels(result['cluster'])
     ax.legend()
 
-    def add_labels(bars):
+    def add_labels(bars) -> None:
         for bar in bars:
             height = bar.get_height()
             ax.annotate(str(height),
@@ -126,7 +125,6 @@ def plot_bar_graph(df: pd.DataFrame):
 
     plt.show()
 
-
 def main():
     json_path = input("Input relative path of json file to be processed: ")
     csv_path = input("Input relative path of csv file to save the processed data: ")
@@ -134,9 +132,10 @@ def main():
     process_data(json_path, csv_path)
     df = pd.read_csv(csv_path, index_col='idx')
 
-    input("Press Enter to view the visual results ")
+    input("\nPress Enter to view the visual results ")
     display_word_clouds(df)
     plot_bar_graph(df)
+
 
 if __name__ == "__main__":
     main()
