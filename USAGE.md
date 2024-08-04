@@ -1,6 +1,14 @@
 > [!NOTE]
 > **Python3.9** or above is required to make use of this project.
 
+Clone this repository[^1] or download the [source code](https://github.com/TERNION-1121/YT-Comments-Clustering/archive/refs/heads/main.zip) and proceed as given below.
+
+> [!NOTE]
+> Before executing the shown commands, make sure to be in the project's root directory i.e. `~\YT-Comments-Clustering\`. Operate your command line or terminal from this path.
+
+<hr>
+<br>
+
 ## Prerequisites
 Before we move onto clustering YouTube comments, we would first need to fetch its comments. 
 
@@ -66,7 +74,7 @@ It's preferable to use this project in a separate virtual environment of its own
 <br>
 
 #### Installing dependencies
-
+Run the following commands
 ```bash
 pip install -r requirements.txt
 ```
@@ -88,9 +96,6 @@ The project's now ready to use!
 ### Usage
 
 Let us now cluster the comments made on [this video](https://www.youtube.com/watch?v=IUTGFQpKaPU), going through each of the steps involved in the project's usage.
-
-> [!NOTE]
-> Before executing the shown commands, make sure to be in the project's root directory i.e. `~\YT-Comments-Clustering\`. Operate your command line or terminal from this path.
 
 #### Comments Extraction
 <img src="image-assets/image-1.png" height="450" width="800" alt="YouTube video played in a browser window">
@@ -136,7 +141,7 @@ Now navigate to the earlier specified JSON file path, and you should be able to 
 > [!NOTE]
 > The fetched comments don't include the replies made on the comments of the video, and thus as a consequence the total number of comments fetched maybe less than the actual comments made on a video.
 
-<hr>
+<br>
 
 #### Comments Clustering
 Now we shall move on with clustering the comments that have been fetched. 
@@ -225,3 +230,5 @@ You can save these word-clouds in a folder.
 <br>
 
 And Voila! You have now successfully clustered and analysed the comments on a video for the very first time by means of this project.
+
+[^1]: [How to Clone a repository?](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
