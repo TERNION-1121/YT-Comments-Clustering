@@ -1,7 +1,6 @@
 import matplotlib.pyplot as plt
 import multiprocessing as mp
 import numpy as np
-import os
 import pandas as pd
 import text_preprocessing as tp
 import time
